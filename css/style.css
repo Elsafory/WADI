@@ -1,0 +1,154 @@
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    padding: 10px 0;
+    background-color: #0D161C;
+    font-family: "Inter";
+}
+header .container {
+    width: 80%;
+    margin: auto;
+}
+header .container .wadi-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .wadi-header .left h2{
+    color: #FE5B00;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60.5px;
+}
+header .container .wadi-header .right ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .wadi-header .right ul li{
+    padding: 0 20px;
+}
+header .container .wadi-header .right ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+header .container .wadi-header .right ul li button{
+    background-color: #FE5B00;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 50px;
+    border: none;
+}
+main{
+    background-color: #101D25;
+    font-family: "Inter";
+}
+main .container {
+    width: 80%;
+    margin: auto;
+}
+main .container .top{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main .container .top .left{
+    width: 63%;
+}
+main .container .top .left p{
+    color: #ffffff;
+    font-size: 55px;
+    display: inline;
+}
+main .container .top .left p span {
+    color: #FE5B00;
+}
+main .container .top .right{
+    text-align: center;
+}
+main .container .top .right P{
+    font-size: 28px;
+    width: 340px;
+    color: #ffffff;
+    text-align: left;
+}
+main .container .top .right button{
+    color: #ffffff;
+    background-color: #FE5B00;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+main .container .down{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main .container .down .left{
+    background-color: #333333;
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+}
+main .container .down .left button {
+    width: 90%;
+    margin: auto;
+}
+main .container .down .left  input {
+    width: 90%;
+    margin: auto;
+}
+main .container .down .left label{
+    color: #ffffff;
+    font-size: 35px;
+    margin: 30px 0 0 25px;
+    display: block;
+}
+main .container .down .left input{
+    background-color: #0D161C;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    padding: 18px 0;
+    display: block;
+    margin-top: 30px;
+}
+main .container .down .left input::placeholder{
+    color: #ffffff;
+}
+main .container .down .left button{
+    background-color: #FE5B00;
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius:20px;
+    border: none;
+    margin-top: 30px;
+    display: block;
+}
+/* <i class="ri-truck-line"></i>
+    <i class="ri-map-pin-line"></i> */
